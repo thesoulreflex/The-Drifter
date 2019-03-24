@@ -16,7 +16,7 @@ module.exports.run = async (bot, message, args) => {
 
     .setColor(config.purple)
 
-    .addField("Help Subcommands", `\`${prefix}help fun\`, \`${prefix}help general\`, \`${prefix}help mod\`, \`${prefix}help nsfw\`, \`${prefix}help other\``)
+    .addField("Help Subcommands", `\`${prefix}help fun\`, \`${prefix}help general\`, \`${prefix}help mod\` `)
 
     .setFooter("Help Command | Subcommand List", bot.user.displayAvatarURL)
 
