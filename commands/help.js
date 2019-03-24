@@ -35,7 +35,7 @@ module.exports.run = async (bot, message, args) => {
 
     .addField(`${prefix}kill @user`, "Virtually kill a user!")
 
-    .addField(`${prefix}pat @user`, "Give a user some head pats!")
+    .addField(`${prefix}Chicken @user`, "Sends a picture of Cayde and his pet!!")
 
     .addField(`${prefix}stare`, "Stare at a chat!")
 
