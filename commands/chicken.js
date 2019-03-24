@@ -24,7 +24,7 @@ module.exports.run = async (bot, message, args) => {
 
     if(!Chicken){
 
-        let chickenembed = new Discord.RichEmbed()
+        let chickenEmbed = new Discord.RichEmbed()
 
         .setColor(config.purple)
 
@@ -34,11 +34,11 @@ module.exports.run = async (bot, message, args) => {
 
         .setFooter(`Powered by ${bot.user.username}`, bot.user.displayAvatarURL)
 
-        message.channel.send(chickenembed);
+        message.channel.send(chickenEmbed);
 
     } else {
 
-        let chickenembed = new Discord.RichEmbed()
+        let chickenEmbed = new Discord.RichEmbed()
 
         .setColor(config.purple)
 
@@ -52,7 +52,7 @@ module.exports.run = async (bot, message, args) => {
 
         await(1000);
 
-        message.channel.send(chickenembed);
+        message.channel.send(chickenEmbed);
 
     }
 
