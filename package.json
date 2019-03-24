@@ -1,0 +1,16 @@
+{
+  "name": "yui-discordbot",
+  "version": "1.0.0",
+  "description": "yui discord bot version 1 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ned",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "nodemod": "^1.5.19",
+    "nodemon": "^1.18.10"
+  }
+}
