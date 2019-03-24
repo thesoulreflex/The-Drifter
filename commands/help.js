@@ -30,11 +30,6 @@ module.exports.run = async (bot, message, args) => {
 
     .setColor(config.purple)
 
-    .addField(`${prefix}8ball question`, "Ask a question and get an answer!")
-
-    .addField(`${prefix}cat`, "Get a random image of a cat!")
-
-    .addField(`${prefix}dog`, "Get a random image of a dog!")
 
     .addField(`${prefix}hug @user`, "Virtually hug a user! or yourself!")
 
@@ -96,35 +91,7 @@ module.exports.run = async (bot, message, args) => {
 
     .setFooter("Help Command | List 3/5 | Moderator Commands", bot.user.displayAvatarURL)
 
-
-
-    let nsfwhelp = new Discord.RichEmbed()
-
-    .setColor(config.purple)
-
-    .setThumbnail(bot.user.displayAvatarURL)
-
-    .setDescription(`NSFW Commands for ${bot.user}`)
-
-    .addField(`${prefix}ass`, "Sends a random ass picture!")
-
-    .addField(`${prefix}hentai`, "Sends a random hentai picture!")
-
-    .addField(`${prefix}kitsune`, "Sends a random lewd kitsune picture!")
-
-    .addField(`${prefix}loli`, "...")
-
-    .addField(`${prefix}neko`, "Sends a random lewd neko image!")
-
-    .addField(`${prefix}pussy`, "Sends a random pussy picture!")
-
-    .addField(`${prefix}thigh`, "Sends a random thigh picture!")
-
-    .setFooter("Help Command | List 4/5 | NSFW Commands", bot.user.displayAvatarURL)
-
-
-
-    let othhelp = new Discord.RichEmbed()
+ let othhelp = new Discord.RichEmbed()
 
     .setColor(config.purple)
 
