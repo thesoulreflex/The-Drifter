@@ -91,22 +91,7 @@ module.exports.run = async (bot, message, args) => {
 
     .setFooter("Help Command | List 3/5 | Moderator Commands", bot.user.displayAvatarURL)
 
- let othhelp = new Discord.RichEmbed()
-
-    .setColor(config.purple)
-
-    .setThumbnail(bot.user.displayAvatarURL)
-
-    .setDescription(`Other Commands for ${bot.user}`)
-
-    .addField(`${prefix}ramenapply message (Ramen Shop Server Only)`, "Send a Moderator Application to us!")
-
-    .addField(`${prefix}ramennews <remove> (Ramen Shop Server Only)`, "Add/Removes you from the <@&555921831035666432> role")
-
-    .addField(`${prefix}supportsuggest message (Support Server Only)`, "Send us a suggestion for the bot/server!")
-
-    .setFooter("Help Command | List 5/5 | Other Commands", bot.user.displayAvatarURL)
-
+ 
 
 
     if(!args[0]){
@@ -146,28 +131,6 @@ module.exports.run = async (bot, message, args) => {
         return;
 
     }
-
-    
-
-    if(args[0] === "nsfw"){
-
-        message.channel.send(nsfwhelp);
-
-        return;
-
-    }
-
-    
-
-    if(args[0] === "other"){
-
-        message.channel.send(othhelp);
-
-        return;
-
-    }
-
-    
 
     if(args[0]){
 
