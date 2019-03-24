@@ -42,7 +42,7 @@ module.exports.run = async (bot, message, args) => {
 
         .setColor(config.purple)
 
-        .setDescription(`${message.author} pats ${Here}`)
+        .setDescription(`${message.author} chicken ${Here}`)
 
         .setImage(gif)
 
