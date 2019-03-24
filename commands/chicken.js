@@ -22,7 +22,7 @@ module.exports.run = async (bot, message, args) => {
 
 
 
-    if(!Chicken){
+    if(!chicken){
 
         let chickenEmbed = new Discord.RichEmbed()
 
