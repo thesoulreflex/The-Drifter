@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
     await message.delete();
     let muted = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
     if(!muted) return message.reply(`Incorrect usage: \`${prefix}mute @user\``);
-    if(muted.id === message.author.id) return message.reply("Incorrect argument: user is not mutable");
+    if(muted.id === message.author.id) return message.reply("Incorrect argument: you cannot mute this user faggot");
     if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("Insufficient permissions: `MANAGE_MESSAGES`");
 
     try{
