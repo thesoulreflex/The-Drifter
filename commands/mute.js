@@ -7,7 +7,7 @@ module.exports.run = async (bot, message, args) => {
     let muted = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
     if(!muted) return message.reply(`Incorrect usage: \`${prefix}mute @user\``);
     if(muted.id === message.author.id) return message.reply("Incorrect argument: you cannot mute this user faggot");
-    if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("Insufficient permissions: `MANAGE_MESSAGES`");
+    if(!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("you lack the skill to mute this user nigger`");
 
     try{
         message.guild.channels.forEach(async (channel, id) => {
