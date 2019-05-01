@@ -14,6 +14,7 @@ module.exports.run = async (bot, message, args) => {
     if(kicked.hasPermission("ADMINISTRATOR")) return message.reply("Incorrect argument: `user is not kickable`");
     if(!kicked.kickable()) return message.reply("Incorrect argument: `user is not kickable`");
 
+    let kickchannel = message.guild.channels.find(name, "logs");
     kicked.send(`You have been kicked from **${message.channel.guild.name}** for the reason: **${kickreason}**`)
     await delay(500);
     message.reply("User kicked!");
