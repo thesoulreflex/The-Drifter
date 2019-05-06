@@ -2,7 +2,7 @@ const config = require("./config.json");
 const discord = require("discord.js");
 const fs = require("fs");
 const bot = new discord.Client()
-const token = process.env.token;
+const token = process.env.token; 
 let prefix = config.prefix;
 bot.commands = new discord.Collection();
 

@@ -85,7 +85,7 @@ module.exports.run = async (bot, message, args) => {
 
     .addField(`${prefix}say message`, "Tell a bot to say something!")
 
-    .addField(`${prefix}mute @user`, "Stops any sort of chatting from a user including voice chanels!")
+    .addField(`${prefix}mute @user`, "Stops any sort of chatting from a user including voice channels!")
 
     .addField(`${prefix}unmute @user`, "Frees a user from my Sythesis ritual and allows them to speak again!")
 
