@@ -1,7 +1,7 @@
 {
   "name": "yui-discordbot",
   "version": "1.0.0",
-  "description": "yui discord bot version 1 ",
+  "description": "The Drfiter discord bot version 2 ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
